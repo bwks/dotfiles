@@ -1,0 +1,9 @@
+layout {
+   pane split_direction="horizontal" {
+       pane size="50%" name="top"
+       pane size="50%" name="bottom"
+   }
+   pane size=1 borderless=true {
+        plugin location="zellij:compact-bar"
+    }
+}
