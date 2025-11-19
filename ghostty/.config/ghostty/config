@@ -51,6 +51,9 @@
 theme = "dark:Catppuccin Frappe,light:Catppuccin Latte"
 font-family = "Recursive Monospace Casual"
 font-size = 14
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
 shell-integration-features = ssh-terminfo
 shell-integration-features = ssh-env
 font-feature = "+liga"   # Standard coding ligatures
