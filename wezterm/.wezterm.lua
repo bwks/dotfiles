@@ -1,8 +1,8 @@
-local wezterm = require 'wezterm'
+local wezterm = require("wezterm")
 
 local config = {}
 
-config.color_scheme = 'Catppuccin Frappe'
+config.color_scheme = "Catppuccin Mocha"
 config.font = wezterm.font("Recursive Monospace Casual")
 config.font_size = 14.0
 config.use_fancy_tab_bar = false
