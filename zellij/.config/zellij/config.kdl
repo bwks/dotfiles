@@ -306,7 +306,6 @@ web_client {
 // The name of the default layout to load on startup
 // Default: "default"
 // 
-default_layout "2-dev"
  
 // The folder in which Zellij will look for layouts
 // (Requires restart)
