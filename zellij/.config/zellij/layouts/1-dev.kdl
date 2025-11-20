@@ -3,8 +3,8 @@ layout {
    //     pane size="50%" name="top"
    //     pane size="50%" name="bottom"
    // }
-   // pane size=1 borderless=true {
-   //      plugin location="zellij:compact-bar"
-   //  }
-  pane borderless=true
+   pane size=1 borderless=false {
+        // plugin location="zellij:compact-bar"
+    }
+  // pane borderless=true
  }
