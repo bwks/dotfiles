@@ -31,13 +31,25 @@ return {
   {
     "catppuccin/nvim",
     name = "catppuccin",
-    priority = 1001,
-    lazy = false, -- <--- This forces it to load at startup!
+    priority = 1000,
+    -- lazy = false, -- <--- This forces it to load at startup!
     config = function()
       require("catppuccin").setup({
         flavour = "mocha", -- Or your preferred flavor
       })
-      vim.cmd.colorscheme("catppuccin")
+      -- vim.cmd.colorscheme("catppuccin")
     end,
+  },
+
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = function()
+        local scheme = vim.env.NVIM_COLOURSCHEME or "catppuccin"
+        -- fallback/default is gruvbox
+        vim.cmd.colorscheme(scheme)
+      end,
+    },
+    priority = 1001,
   },
 }
