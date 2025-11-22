@@ -2,11 +2,11 @@ return {
   {
     "neovim/nvim-lspconfig",
     opts = {
-      servers = {
-        jinja_lsp = {
-          filetypes = { "jinja", "html" }, -- Add types as needed
-        },
-      },
+      -- servers = {
+      --   jinja_lsp = {
+      --     filetypes = { "jinja", "html" }, -- Add types as needed
+      --   },
+      -- },
     },
   },
 }
