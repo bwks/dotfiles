@@ -1,6 +1,6 @@
 return {
-  {
-    "Glench/Vim-Jinja2-Syntax",
-    ft = { "jinja", "jinja2", "j2", "html" }, -- extend as needed
-  },
+  -- {
+  --   "Glench/Vim-Jinja2-Syntax",
+  --   ft = { "jinja", "jinja2", "j2", "html" }, -- extend as needed
+  -- },
 }

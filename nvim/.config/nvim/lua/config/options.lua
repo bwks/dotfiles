@@ -7,3 +7,4 @@ vim.g.lazyvim_python_lsp = "ty"
 vim.g.lazyvim_python_ruff = "ruff"
 vim.g.autoformat = true
 vim.opt.guicursor = "a:block-blinkon0"
+vim.opt.clipboard = "unnamedplus"
