@@ -50,7 +50,7 @@
 
 theme = "dark:Catppuccin Frappe,light:Catppuccin Latte"
 font-family = "Recursive Monospace Casual"
-font-size = 14
+font-size = 13
 cursor-style = block
 cursor-style-blink = false
 shell-integration-features = no-cursor
