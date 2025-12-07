@@ -48,7 +48,7 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-theme = "dark:Catppuccin Frappe,light:Catppuccin Latte"
+theme = "dark:Catppuccin Mocha,light:Catppuccin Latte"
 font-family = "Recursive Monospace Casual"
 font-size = 13
 cursor-style = block
