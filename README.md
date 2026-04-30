@@ -1,7 +1,21 @@
 # dotfiles
 My dotfiles
 
-Dotfiles are managed with `stow`
+Dotfiles are managed with `stow`.
+
+## Cloning
+
+This repo uses git submodules for third-party tmux plugins. Clone with submodules enabled:
+
+```bash
+git clone --recurse-submodules <repo-url>
+```
+
+If you already cloned the repo, initialize/update submodules with:
+
+```bash
+git submodule update --init --recursive
+```
 
 Create a managed dotfile
 ```
