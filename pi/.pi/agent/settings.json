@@ -1,0 +1,10 @@
+{
+  "lastChangelogVersion": "0.70.6",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.5",
+  "defaultThinkingLevel": "high",
+  "packages": [
+    "git:github.com/bwks/pi-todos",
+    "git:github.com/bwks/pi-planner"
+  ]
+}
