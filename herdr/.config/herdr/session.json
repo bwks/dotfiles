@@ -61,6 +61,42 @@
           "root_pane": 10
         }
       ],
+      "active_tab": 1
+    },
+    {
+      "id": "w5",
+      "custom_name": null,
+      "identity_cwd": "/home/bradmin/code/c5/nautobot-vrf-add-job",
+      "public_pane_numbers": {
+        "13": 1
+      },
+      "next_public_pane_number": 2,
+      "public_tab_numbers": [
+        1
+      ],
+      "next_public_tab_number": 2,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 13
+          },
+          "panes": {
+            "13": {
+              "cwd": "/home/bradmin/code/c5/nautobot-vrf-add-job",
+              "agent_session": {
+                "source": "herdr:codex",
+                "agent": "codex",
+                "kind": "id",
+                "value": "019f59c0-af52-74b3-a28c-19317b1ab941"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 13,
+          "root_pane": 13
+        }
+      ],
       "active_tab": 0
     },
     {
@@ -115,7 +151,7 @@
           },
           "panes": {
             "11": {
-              "cwd": "/home/bradmin/code/rust/webstack"
+              "cwd": "/home/bradmin/code/dotfiles"
             }
           },
           "zoomed": false,
@@ -123,11 +159,41 @@
           "root_pane": 11
         }
       ],
-      "active_tab": 2
+      "active_tab": 0
+    },
+    {
+      "id": "w6",
+      "custom_name": null,
+      "identity_cwd": "/home/bradmin/code/dotfiles/herdr/.config/herdr",
+      "public_pane_numbers": {
+        "14": 1
+      },
+      "next_public_pane_number": 2,
+      "public_tab_numbers": [
+        1
+      ],
+      "next_public_tab_number": 2,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 14
+          },
+          "panes": {
+            "14": {
+              "cwd": "/home/bradmin/code/dotfiles/herdr/.config/herdr"
+            }
+          },
+          "zoomed": false,
+          "focused": 14,
+          "root_pane": 14
+        }
+      ],
+      "active_tab": 0
     }
   ],
-  "active": 1,
-  "selected": 1,
+  "active": 3,
+  "selected": 3,
   "sidebar_width": 26,
   "sidebar_section_split": 0.5,
   "collapsed_space_keys": []
