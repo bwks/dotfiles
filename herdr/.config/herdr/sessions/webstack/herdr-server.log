@@ -1,0 +1,46 @@
+2026-07-12T21:39:37.802629Z  INFO herdr::api::server: api server listening path=/home/bradmin/.config/herdr/sessions/webstack/herdr.sock
+2026-07-12T21:39:37.805914Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=104857600
+2026-07-12T21:39:37.888441Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T21:39:37.891372Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=104857600
+2026-07-12T21:39:37.893097Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=3091396
+2026-07-12T21:39:37.893434Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-07-12T21:39:37.893458Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-07-12T21:39:37.893544Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-12T21:39:37.893560Z  INFO herdr::server::headless: created startup workspace cwd=/home/bradmin/code/rust/webstack
+2026-07-12T21:39:37.893665Z  INFO herdr::server::headless: client protocol socket listening path=/home/bradmin/.config/herdr/sessions/webstack/herdr-client.sock
+2026-07-12T21:39:37.893722Z  INFO herdr::server::headless: herdr server started api_socket=/home/bradmin/.config/herdr/sessions/webstack/herdr.sock client_socket=/home/bradmin/.config/herdr/sessions/webstack/herdr-client.sock
+2026-07-12T21:39:37.893784Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=3091356
+2026-07-12T21:39:37.984684Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T21:39:38.148234Z  INFO herdr::server::headless: client connected client_id=2 cols=236 rows=60 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-12T21:39:42.895695Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/sessions/webstack/session.json workspaces=1
+2026-07-12T21:40:00.091573Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T21:40:01.990222Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T21:40:02.167876Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T21:40:24.402006Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Codex) process=codex pgid=Some(3091990)
+2026-07-12T21:40:39.813457Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Codex) agent=None pgid=Some(3091396)
+2026-07-12T21:40:43.588705Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-07-12T21:40:43.594069Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-07-12T22:09:37.889747Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T22:09:37.970261Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T22:39:37.891139Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T22:39:37.961916Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T23:09:37.892771Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T23:09:37.980964Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T23:39:37.894159Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T23:39:37.984572Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T00:09:37.895994Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T00:09:37.972535Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T00:39:37.897101Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T00:39:37.990790Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T01:09:37.897302Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T01:09:37.979784Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T01:39:37.898450Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T01:39:37.989975Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T02:09:37.900034Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T02:09:38.024351Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T02:39:37.900907Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T02:39:38.011747Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T03:09:37.901714Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T03:09:38.005878Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T03:39:37.903355Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T03:39:38.007748Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"

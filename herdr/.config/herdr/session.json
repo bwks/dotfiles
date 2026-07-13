@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "workspaces": [
+    {
+      "id": "w2",
+      "custom_name": null,
+      "identity_cwd": "/home/bradmin/code/c5/osg-nautobot",
+      "public_pane_numbers": {
+        "5": 1,
+        "10": 4,
+        "6": 2
+      },
+      "next_public_pane_number": 5,
+      "public_tab_numbers": [
+        1,
+        2,
+        4
+      ],
+      "next_public_tab_number": 5,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 5
+          },
+          "panes": {
+            "5": {
+              "cwd": "/home/bradmin/code/c5/osg-nautobot"
+            }
+          },
+          "zoomed": false,
+          "focused": 5,
+          "root_pane": 5
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 6
+          },
+          "panes": {
+            "6": {
+              "cwd": "/home/bradmin/code/c5/osg-nautobot/vrf-import"
+            }
+          },
+          "zoomed": false,
+          "focused": 6,
+          "root_pane": 6
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 10
+          },
+          "panes": {
+            "10": {
+              "cwd": "/home/bradmin/code/c5/Origin-OSG-Refresh"
+            }
+          },
+          "zoomed": false,
+          "focused": 10,
+          "root_pane": 10
+        }
+      ],
+      "active_tab": 0
+    },
+    {
+      "id": "w3",
+      "custom_name": null,
+      "identity_cwd": "/home/bradmin/code/rust/webstack",
+      "public_pane_numbers": {
+        "8": 1,
+        "9": 2,
+        "11": 3
+      },
+      "next_public_pane_number": 4,
+      "public_tab_numbers": [
+        1,
+        2,
+        3
+      ],
+      "next_public_tab_number": 4,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 8
+          },
+          "panes": {
+            "8": {
+              "cwd": "/home/bradmin/code/rust/webstack"
+            }
+          },
+          "zoomed": false,
+          "focused": 8,
+          "root_pane": 8
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 9
+          },
+          "panes": {
+            "9": {
+              "cwd": "/home/bradmin/code/rust/webstack"
+            }
+          },
+          "zoomed": false,
+          "focused": 9,
+          "root_pane": 9
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 11
+          },
+          "panes": {
+            "11": {
+              "cwd": "/home/bradmin/code/rust/webstack"
+            }
+          },
+          "zoomed": false,
+          "focused": 11,
+          "root_pane": 11
+        }
+      ],
+      "active_tab": 2
+    }
+  ],
+  "active": 1,
+  "selected": 1,
+  "sidebar_width": 26,
+  "sidebar_section_split": 0.5,
+  "collapsed_space_keys": []
+}

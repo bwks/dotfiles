@@ -1,0 +1,687 @@
+2026-07-10T23:00:38.811854Z  INFO herdr::api::server: api server listening path=/home/bradmin/.config/herdr/herdr.sock
+2026-07-10T23:00:38.815141Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-07-10T23:00:38.870867Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-10T23:00:38.874713Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-07-10T23:00:38.876452Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=2675558
+2026-07-10T23:00:38.876843Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-07-10T23:00:38.876868Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-07-10T23:00:38.876890Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-10T23:00:38.876918Z  INFO herdr::server::headless: created startup workspace cwd=/home/bradmin
+2026-07-10T23:00:38.877009Z  INFO herdr::server::headless: client protocol socket listening path=/home/bradmin/.config/herdr/herdr-client.sock
+2026-07-10T23:00:38.877045Z  INFO herdr::server::headless: herdr server started api_socket=/home/bradmin/.config/herdr/herdr.sock client_socket=/home/bradmin/.config/herdr/herdr-client.sock
+2026-07-10T23:00:38.877079Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=2675518
+2026-07-10T23:00:38.958151Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-10T23:00:39.131444Z  INFO herdr::server::headless: client connected client_id=2 cols=236 rows=60 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-10T23:00:43.879346Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=1
+2026-07-10T23:00:48.220333Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=59 cols=210 scrollback_limit_bytes=10000000
+2026-07-10T23:00:48.222576Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=2675888
+2026-07-10T23:00:48.222967Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-10T23:00:51.990591Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-07-10T23:00:51.990628Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-10T23:00:51.990684Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-10T23:00:51.992859Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: None }"
+2026-07-10T23:00:52.001856Z  INFO herdr::pane: pane session terminated pane=2 pid=2675888 signal=Hangup
+2026-07-10T23:00:52.002110Z  WARN herdr::app::actions: PaneDied for unknown pane pane=2
+2026-07-10T23:00:57.003825Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=1
+2026-07-10T23:30:38.871749Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-10T23:30:38.985701Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T00:00:38.872351Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T00:00:38.950999Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T00:30:38.873623Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T00:30:38.952928Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T01:00:38.875421Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T01:00:38.950257Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T01:30:38.877536Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T01:30:38.971163Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T02:00:38.878571Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T02:00:38.957533Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T02:30:38.880413Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T02:30:38.977584Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T03:00:38.881668Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T03:00:38.959813Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T03:30:38.883333Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T03:30:38.974898Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T04:00:38.884825Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T04:00:38.962561Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T04:30:38.885794Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T04:30:38.982060Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T05:00:38.886775Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T05:00:38.980871Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T05:30:38.887695Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T05:30:38.974993Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T06:00:38.889098Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T06:00:38.989291Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T06:30:38.889825Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T06:30:38.972821Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T07:00:38.890904Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T07:00:38.966908Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T07:30:38.892196Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T07:30:38.975567Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T08:00:38.892995Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T08:00:38.969655Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T08:30:38.894276Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T08:30:38.966214Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T09:00:38.895838Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T09:00:38.975496Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T09:30:38.897023Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T09:30:38.978140Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T10:00:38.898531Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T10:00:38.982789Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T10:30:38.900076Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T10:30:38.976072Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T11:00:38.900821Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T11:00:38.983099Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T11:30:38.900760Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T11:30:38.990963Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T12:00:38.902301Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T12:00:38.979883Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T12:30:38.903837Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T12:30:38.984253Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T13:00:38.905283Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T13:00:39.001934Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T13:30:38.905847Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T13:30:38.979108Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T14:00:38.906943Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T14:00:38.981626Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T14:30:38.908012Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T14:30:38.981133Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T15:00:38.908731Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T15:00:38.981877Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T15:30:38.910392Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T15:30:39.003105Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T16:00:38.912341Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T16:00:39.006420Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T16:30:38.913761Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T16:30:38.993936Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T17:00:38.915428Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T17:00:39.006285Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T17:30:38.917308Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T17:30:38.989033Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T18:00:38.918542Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T18:00:38.990585Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T18:30:38.919630Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T18:30:38.993738Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T19:00:38.921231Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T19:00:38.994450Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T19:30:38.921993Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T19:30:39.000929Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T20:00:38.922798Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T20:00:38.999071Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T20:30:38.923954Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T20:30:38.998114Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T21:00:38.925283Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T21:00:38.996995Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T21:30:38.925899Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T21:30:39.003169Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T22:00:38.927377Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T22:00:39.003568Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T22:30:38.928545Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T22:30:39.018885Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T23:00:38.929891Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T23:00:39.004614Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T23:30:38.931204Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-11T23:30:39.025826Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T00:00:38.932532Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T00:00:39.023836Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T00:30:38.933804Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T00:30:39.009889Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T01:00:38.935178Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T01:00:39.012965Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T01:30:38.935795Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T01:30:39.049168Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T02:00:38.937052Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T02:00:39.016446Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T02:30:38.938056Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T02:30:39.026157Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T03:00:38.939269Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T03:00:39.018946Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T03:30:38.939546Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T03:30:39.035537Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T04:00:38.940551Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T04:00:39.031370Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T04:30:38.942246Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T04:30:39.019075Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T05:00:38.942762Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T05:00:39.020207Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T05:30:38.944264Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T05:30:39.027535Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T06:00:38.944914Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T06:00:39.025736Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T06:30:38.945667Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T06:30:39.027986Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T07:00:38.947131Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T07:00:39.030697Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T07:30:38.947763Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T07:30:39.027751Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T08:00:38.948902Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T08:00:39.032263Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T08:30:38.949871Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T08:30:39.024558Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T09:00:38.950684Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T09:00:39.043710Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T09:30:38.952107Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T09:30:39.045927Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T10:00:38.953107Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T10:00:39.066267Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T10:30:38.953863Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T10:30:39.037400Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T11:00:38.954760Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T11:00:39.057972Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T11:30:38.955848Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T11:30:39.049926Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T12:00:38.956602Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T12:00:39.040101Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T12:30:38.957689Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T12:30:39.033553Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T13:00:38.959222Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T13:00:39.033593Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T13:30:38.959751Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T13:30:39.046916Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T14:00:38.961662Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T14:00:39.035859Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T14:30:38.963330Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T14:30:39.037363Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T15:00:38.964965Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T15:00:39.038063Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T15:30:38.965761Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T15:30:39.035579Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T16:00:38.966505Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T16:00:39.036271Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T16:30:38.968425Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T16:30:39.040784Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T17:00:38.969668Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T17:00:39.040239Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T17:30:38.970937Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T17:30:39.045984Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T18:00:38.971501Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T18:00:39.054019Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T18:30:38.972811Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T18:30:39.046146Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T19:00:38.974418Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T19:00:39.063060Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T19:30:38.976098Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T19:30:39.049175Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T20:00:38.976857Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T20:00:39.051858Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T20:30:38.977743Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T20:30:39.050276Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T20:49:57.560406Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-12T20:52:48.925507Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T20:53:11.724788Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-12T20:53:11.727087Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-12T20:53:18.029307Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=59 cols=210 scrollback_limit_bytes=104857600
+2026-07-12T20:53:18.031740Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=3082381
+2026-07-12T20:53:18.032124Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-12T20:53:23.046335Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=1
+2026-07-12T20:53:23.177267Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T20:53:33.962620Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 1, signal: None }"
+2026-07-12T20:53:33.972355Z  INFO herdr::pane: pane session terminated pane=3 pid=3082381 signal=Hangup
+2026-07-12T20:53:33.972650Z  WARN herdr::app::actions: PaneDied for unknown pane pane=3
+2026-07-12T20:53:38.975406Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=1
+2026-07-12T20:54:22.560731Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=59 cols=210 scrollback_limit_bytes=104857600
+2026-07-12T20:54:22.563328Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=3082794
+2026-07-12T20:54:22.563725Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-07-12T20:54:27.578977Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=1
+2026-07-12T20:54:56.548970Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-07-12T20:54:56.549276Z  INFO herdr::pane: pane session terminated pane=4 pid=3082794 signal=Hangup
+2026-07-12T20:54:57.882517Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 0, signal: None }"
+2026-07-12T20:54:57.882686Z  INFO herdr::pane: pane session terminated pane=1 pid=2675558 signal=Hangup
+2026-07-12T20:54:57.882886Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=59 cols=210 scrollback_limit_bytes=104857600
+2026-07-12T20:54:57.885249Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=3083138
+2026-07-12T20:54:57.885568Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=5
+2026-07-12T20:54:57.885582Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T20:54:57.885595Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T20:55:02.887219Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=1
+2026-07-12T20:55:26.528706Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=59 cols=210 scrollback_limit_bytes=104857600
+2026-07-12T20:55:26.531214Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=3083485
+2026-07-12T20:55:26.531675Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-07-12T20:55:31.546537Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=1
+2026-07-12T20:56:16.797510Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T20:56:17.010496Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T20:56:17.198598Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T20:58:30.851117Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T20:58:32.621402Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T20:58:34.009845Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T20:58:38.149858Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T20:58:38.370562Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T20:58:58.757895Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T20:59:11.736399Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T20:59:17.035609Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T20:59:26.057287Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-12T20:59:26.060134Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-12T20:59:29.042622Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T20:59:29.514459Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-07-12T20:59:30.229773Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T20:59:30.354558Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-07-12T20:59:30.911250Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T20:59:31.645336Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-07-12T20:59:32.489278Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T20:59:37.491831Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=1
+2026-07-12T21:00:38.978673Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T21:00:39.051974Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T21:02:06.521514Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(Codex) process=codex pgid=Some(3085039)
+2026-07-12T21:02:12.587687Z  INFO herdr::pane: agent changed pane=5 previous_agent=Some(Codex) agent=None pgid=Some(3083138)
+2026-07-12T21:30:38.979927Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T21:30:39.055625Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T21:37:43.040918Z  INFO herdr::server::headless: client connected client_id=4 cols=236 rows=60 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-12T21:37:48.616431Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-07-12T21:37:49.903538Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T21:37:52.958974Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-07-12T21:37:57.961579Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=1
+2026-07-12T21:37:58.724153Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T21:37:59.834076Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-07-12T21:38:04.837548Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=1
+2026-07-12T21:38:57.618379Z  INFO herdr::server::headless: client detach requested via keybind client_id=4
+2026-07-12T21:38:57.626269Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-07-12T21:41:57.395196Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T21:41:59.617530Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T21:42:12.989153Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T21:42:31.010617Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=59 cols=210 scrollback_limit_bytes=104857600
+2026-07-12T21:42:31.013126Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=3093805
+2026-07-12T21:42:31.013563Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t3"
+2026-07-12T21:42:35.502860Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=7 status="ExitStatus { code: 1, signal: None }"
+2026-07-12T21:42:35.511922Z  INFO herdr::pane: pane session terminated pane=7 pid=3093805 signal=Hangup
+2026-07-12T21:42:35.512160Z  WARN herdr::app::actions: PaneDied for unknown pane pane=7
+2026-07-12T21:42:39.691352Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=8 rows=59 cols=210 scrollback_limit_bytes=104857600
+2026-07-12T21:42:39.693842Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=8 pid=3094090
+2026-07-12T21:42:39.694193Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w3" pane_id=8
+2026-07-12T21:42:39.694208Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T21:42:39.694219Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:42:44.720049Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:43:11.125904Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T21:43:13.386598Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:43:18.389292Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:43:19.910092Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:43:24.912615Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:43:26.050845Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:43:31.052694Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:43:38.248945Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T21:43:38.249005Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-07-12T21:43:38.879137Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T21:43:38.879166Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:43:43.888408Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:44:12.108002Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T21:44:25.753822Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T21:44:25.753866Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-07-12T21:44:30.757224Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:44:33.312026Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T21:44:35.144216Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-07-12T21:44:36.408898Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T21:44:41.412580Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:45:01.958631Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T21:45:01.958675Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:45:03.781407Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T21:45:03.781445Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T21:45:08.784576Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:45:32.166813Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T21:45:32.166862Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:45:33.598066Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T21:45:33.598102Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T21:45:38.601293Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:45:45.712310Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T21:45:45.712345Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:45:48.731869Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:45:53.743666Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:45:59.900296Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T21:45:59.900348Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T21:46:04.903651Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:46:10.874761Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T21:46:10.874815Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:46:15.131613Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T21:46:15.131650Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T21:46:16.436559Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T21:46:16.436595Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:46:21.440717Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:46:44.117980Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T21:46:44.118019Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T21:46:49.120904Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:46:49.344436Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T21:46:49.344460Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:46:51.425035Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T21:46:51.425069Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T21:46:55.984079Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T21:46:55.984113Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:46:58.471267Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T21:46:58.471300Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T21:47:03.474082Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:48:14.679067Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-12T21:48:14.681350Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-12T21:48:17.541103Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T21:48:17.541135Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:48:18.907972Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T21:48:18.908004Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T21:48:20.061660Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T21:48:20.061697Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:48:21.245463Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T21:48:21.245527Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T21:48:22.788894Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T21:48:22.788920Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:48:24.843435Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T21:48:24.843463Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T21:48:29.846203Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:48:36.140985Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T21:48:36.141023Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T21:48:41.144253Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T21:48:41.687941Z  INFO herdr::pane: agent changed pane=8 previous_agent=None agent=Some(Codex) process=codex pgid=Some(3095672)
+2026-07-12T22:00:38.980842Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T22:00:39.058191Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T22:30:38.981794Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T22:30:39.059495Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T22:34:07.134815Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T22:34:07.134875Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T22:34:09.363046Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T22:34:09.363087Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T22:34:14.370921Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T22:35:05.759173Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T22:35:05.759208Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T22:35:10.766138Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T22:35:15.451118Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T22:35:15.451154Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T22:35:20.463410Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T22:35:22.672144Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T22:35:22.672188Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T22:35:24.609674Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T22:35:24.609710Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T22:35:29.618588Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T22:35:30.332442Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T22:35:30.332520Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T22:35:32.712981Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T22:35:32.713019Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T22:35:37.720383Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T22:37:17.136233Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=9 rows=59 cols=210 scrollback_limit_bytes=104857600
+2026-07-12T22:37:17.139085Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=9 pid=3109442
+2026-07-12T22:37:17.139532Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-07-12T22:37:22.159870Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T22:37:30.095100Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T22:37:35.102246Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T22:37:44.796539Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-07-12T22:37:45.309560Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T22:37:50.316335Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T22:38:18.563959Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T22:38:18.563998Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T22:38:23.571476Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T22:42:12.054938Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T22:42:12.054975Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T22:42:14.405337Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-07-12T22:42:19.416115Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T22:50:36.842126Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T22:50:41.853177Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T22:51:40.537029Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T22:51:40.537064Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T22:51:45.547514Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T22:51:47.709045Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=10 rows=59 cols=210 scrollback_limit_bytes=104857600
+2026-07-12T22:51:47.712032Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=10 pid=3112799
+2026-07-12T22:51:47.712390Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t4"
+2026-07-12T22:51:52.735743Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T22:51:58.551432Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-07-12T22:51:58.690328Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T22:51:59.489352Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-07-12T22:52:00.107409Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T22:52:02.618666Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(Codex) process=codex pgid=Some(3113199)
+2026-07-12T22:52:05.115257Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T22:52:12.756438Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T22:52:12.756497Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T22:52:17.779483Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T22:55:32.336937Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-12T22:55:51.644544Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T22:55:51.644591Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T22:55:53.192061Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T22:55:53.192099Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T22:55:54.556085Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T22:55:54.556116Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T22:55:56.135285Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T22:55:56.135314Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T22:55:57.340018Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T22:55:57.340048Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T22:55:59.542601Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T22:55:59.542632Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T22:56:02.494347Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-07-12T22:56:02.820696Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T22:56:07.832616Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T23:00:38.982643Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T23:00:39.060660Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T23:16:53.853348Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T23:16:53.853389Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T23:16:58.864921Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T23:17:35.748989Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T23:17:35.749017Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T23:17:40.761212Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T23:30:38.983883Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T23:30:39.070599Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T23:34:22.121111Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T23:34:22.121164Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T23:34:26.381594Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T23:34:26.381634Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T23:34:31.395106Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T23:49:40.459308Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-07-12T23:49:45.479332Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-12T23:51:53.193300Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T23:51:58.226597Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:00:38.985352Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T00:00:39.073724Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T00:00:55.199092Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:00:55.199166Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:01:00.213888Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:01:36.119045Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:01:36.119090Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:01:41.133917Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:01:47.401101Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:01:47.401136Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:01:52.414920Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:01:57.609186Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:01:57.609213Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:02:02.624114Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:02:09.561492Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:02:09.561522Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:02:14.577029Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:02:18.437588Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:02:18.437620Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:02:23.452122Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:02:40.406623Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:02:40.406736Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:02:45.422252Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:03:34.910467Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:03:34.910528Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:03:39.926246Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:04:23.731675Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:04:23.731715Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:04:28.747156Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:04:35.627979Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:04:35.628008Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:04:40.643136Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:06:17.543214Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:06:17.543248Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:06:22.558780Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:06:46.518667Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:06:46.518706Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:06:51.532796Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:09:39.566273Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:09:39.566299Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:09:44.581485Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:09:54.926378Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:09:54.926415Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:09:59.941872Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:10:58.991120Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:10:58.991164Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:11:04.008138Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:11:56.403655Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-13T00:12:13.090956Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:12:13.090991Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:12:18.108263Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:14:20.033695Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:14:20.033725Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:14:25.059531Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:14:50.952967Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:14:50.953020Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:14:55.980122Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:15:39.273949Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:15:39.273986Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:15:44.301610Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:23:19.937303Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:23:19.937341Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:23:24.963761Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:23:56.984151Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:23:56.984184Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:24:02.024008Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:25:49.056810Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:25:49.056840Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:25:54.095577Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:29:26.297662Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:29:26.297698Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:29:28.151641Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:29:28.151674Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:29:33.196064Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:30:38.986747Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T00:30:39.079218Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T00:32:31.932135Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:32:31.932166Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:32:34.618435Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:32:34.618464Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:32:39.647122Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:44:19.716438Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:44:19.716495Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:44:24.745022Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:45:33.838223Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:45:33.838260Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:45:38.859139Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:45:43.025079Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:45:43.025107Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:45:48.045142Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:51:58.871894Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:51:58.871932Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:52:03.905927Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:56:16.401028Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:56:16.401064Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:56:21.424862Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:57:32.643918Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T00:57:32.643950Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T00:57:37.678569Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T00:59:45.194152Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T00:59:45.194211Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T00:59:50.218991Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:00:38.987786Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T01:00:39.078659Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T01:00:40.715657Z  INFO herdr::pane: agent changed pane=8 previous_agent=None agent=Some(Codex) process=codex pgid=Some(3095672)
+2026-07-13T01:00:40.715753Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(Codex) process=codex pgid=Some(3113199)
+2026-07-13T01:00:44.907922Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T01:00:44.907957Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:00:49.924115Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:03:46.370263Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T01:03:46.370327Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T01:03:51.401602Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:04:00.442287Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T01:04:00.442327Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:04:05.459543Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:06:42.173388Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T01:06:42.173421Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T01:06:47.205889Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:07:13.290212Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T01:07:13.290255Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:07:18.325789Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:08:15.850691Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T01:08:15.850723Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T01:08:20.892625Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:08:52.506363Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T01:08:52.506461Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:08:55.905892Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T01:08:55.905928Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T01:09:01.320026Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:18:16.963154Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T01:18:16.963201Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:18:22.002682Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:22:58.645129Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T01:22:58.645167Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T01:23:03.683398Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:24:11.069405Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T01:24:11.069457Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:24:16.107542Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:29:36.182298Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T01:29:36.182364Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T01:29:40.479202Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T01:29:40.479231Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:29:45.525946Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:30:38.988828Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T01:30:39.087274Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T01:40:00.167332Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T01:40:00.167369Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T01:40:05.206862Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:40:45.894843Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T01:40:45.894884Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:40:50.925678Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:46:18.298296Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T01:46:18.298334Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T01:46:23.331455Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:47:48.739892Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T01:47:48.739934Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:47:53.761849Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:51:25.143500Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T01:51:25.143618Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T01:51:30.176950Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:52:29.207712Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T01:52:29.207751Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:52:34.227907Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:54:09.232063Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T01:54:09.232092Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T01:54:14.262603Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:54:45.857628Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T01:54:45.857670Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:54:50.888613Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:56:28.579586Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T01:56:28.579631Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T01:56:33.598433Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:56:58.412888Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T01:56:58.412927Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:57:03.430224Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T01:59:10.661438Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T01:59:10.661496Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T01:59:12.493790Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T01:59:12.493821Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:59:14.140615Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T01:59:14.140645Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T01:59:15.889145Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T01:59:15.889180Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T01:59:20.908845Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T02:00:38.989810Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T02:00:39.097804Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T02:01:14.796105Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T02:01:14.796148Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T02:01:19.818334Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T02:02:23.905586Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T02:02:23.905641Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T02:02:28.929222Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T02:06:37.353452Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T02:06:37.353528Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T02:06:42.407244Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T02:07:17.604230Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-07-13T02:07:22.636195Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T02:07:23.479161Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T02:07:25.659294Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-07-13T02:07:30.693855Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T02:11:36.091272Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T02:11:36.091322Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T02:11:37.121872Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T02:11:37.121907Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-07-13T02:11:42.153121Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T02:17:38.866001Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T02:17:38.866041Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T02:17:40.678336Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-07-13T02:17:45.710647Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T02:30:38.991450Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T02:30:39.077053Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T03:00:38.992554Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T03:00:39.100603Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T03:30:38.993773Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T03:30:39.101848Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T03:36:12.627118Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-13T03:36:12.627164Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-13T03:36:17.673422Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T03:49:33.084142Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-13T03:49:33.084179Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-13T03:49:38.133275Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2
+2026-07-13T04:00:38.994677Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T04:00:39.091539Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T04:03:12.140282Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t2"
+2026-07-13T04:03:14.914061Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=11 rows=59 cols=210 scrollback_limit_bytes=104857600
+2026-07-13T04:03:14.917620Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=11 pid=3224908
+2026-07-13T04:03:14.918067Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t3"
+2026-07-13T04:03:19.957653Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/bradmin/.config/herdr/session.json workspaces=2

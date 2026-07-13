@@ -1,0 +1,106 @@
+# ~/.config/herdr/config.toml
+
+onboarding = false
+
+# New panes and tabs inherit the current pane's working directory.
+[terminal]
+new_cwd = "follow"
+shell_mode = "auto"
+
+# Catppuccin Mocha equivalent.
+#
+# Herdr's built-in dark Catppuccin theme corresponds most closely to
+# Catppuccin Mocha.
+[theme]
+name = "catppuccin"
+auto_switch = false
+
+[ui]
+# Enable pane selection, resizing and scrolling with the mouse.
+mouse_capture = true
+mouse_scroll_lines = 3
+
+# Show pane borders. Herdr does not currently expose tmux's
+# "pane-border-lines heavy" setting.
+pane_borders = true
+pane_gaps = false
+
+# Keep the tab bar visible.
+hide_tab_bar_when_single_tab = false
+
+# Hide the sidebar completely when collapsed.
+sidebar_collapsed_mode = "hidden"
+
+# Herdr provides its own tab/status UI rather than tmux's configurable
+# status-left/status-right format.
+confirm_close = true
+prompt_new_tab_name = false
+
+[advanced]
+# Herdr measures scrollback in bytes rather than lines.
+# 100 MiB is intended to approximate a very large tmux history buffer.
+scrollback_limit_bytes = 104857600
+
+[experimental]
+# Similar in purpose to tmux-resurrect pane-content restoration.
+# Workspaces, tabs, panes, layouts and working directories are persisted
+# even without this. This additionally saves recent screen contents.
+pane_history = true
+
+[keys]
+# tmux: set -g prefix C-Space
+prefix = "ctrl+space"
+
+# Session/workspace controls
+detach = "prefix+q"
+workspace_picker = "prefix+w"
+
+# tmux windows map most closely to Herdr tabs.
+new_tab = "prefix+c"
+previous_tab = "alt+h"
+next_tab = "alt+l"
+switch_tab = "prefix+1..9"
+rename_tab = "prefix+shift+t"
+close_tab = "prefix+shift+x"
+
+# Copy mode.
+copy_mode = "prefix+["
+
+# Prefix-based pane navigation.
+focus_pane_left = ["prefix+h"]
+focus_pane_down = ["prefix+j"]
+focus_pane_up = ["prefix+k"]
+focus_pane_right = ["prefix+l"]
+
+# Pane creation.
+#
+# tmux "|" creates side-by-side panes, which corresponds to Herdr's
+# vertical divider action.
+split_vertical = "prefix+shift+\\"
+
+# tmux "-" creates top-and-bottom panes.
+split_horizontal = "prefix+minus"
+
+close_pane = "prefix+x"
+zoom = "prefix+z"
+
+# Herdr currently provides resize mode rather than separate configurable
+# resize-left/down/up/right actions.
+resize_mode = "prefix+r"
+
+toggle_sidebar = "prefix+b"
+
+# Navigation-mode keys.
+navigate_pane_left = "h"
+navigate_pane_down = "j"
+navigate_pane_up = "k"
+navigate_pane_right = "l"
+
+navigate_workspace_up = "up"
+navigate_workspace_down = "down"
+
+# Optional workspace switching.
+previous_workspace = "prefix+shift+k"
+next_workspace = "prefix+shift+j"
+switch_workspace = "prefix+shift+1..9"
+
