@@ -1,0 +1,3 @@
+# Herder
+herdr/.config/herdr/*      
+!herdr/.config/herdr/config.toml                 
