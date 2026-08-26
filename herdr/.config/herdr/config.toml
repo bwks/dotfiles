@@ -12,7 +12,7 @@ shell_mode = "auto"
 # Herdr's built-in dark Catppuccin theme corresponds most closely to
 # Catppuccin Mocha.
 [theme]
-name = "catppuccin"
+name = "terminal"
 auto_switch = false
 
 [ui]
