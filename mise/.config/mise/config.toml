@@ -1,0 +1,22 @@
+[tools]
+codex = "latest"
+gh = "latest"
+node = "26.7.0"
+
+[task_config]
+dir = "{{cwd}}"
+
+[tasks.sherpa]
+description = "Run Sherpa CLI with Proton Pass env"
+raw_args = true
+run = 'pass-cli run --env-file "$HOME/.config/mise/github.env" -- sherpa'
+
+[tasks.gh]
+description = "Run GitHub CLI with Proton Pass authentication"
+raw_args = true
+run = 'pass-cli run --env-file "$HOME/.config/mise/github.env" -- gh'
+
+[tasks.git-push]
+description = "Push Git changes using Proton Pass authentication"
+raw_args = true
+run = 'pass-cli run --env-file "$HOME/.config/mise/github.env" -- git push'
