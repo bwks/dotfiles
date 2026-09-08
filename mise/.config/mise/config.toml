@@ -21,9 +21,16 @@ description = "Push Git changes using Proton Pass authentication"
 raw_args = true
 run = 'pass-cli run --env-file "$HOME/.config/mise/github.env" -- git push'
 
-[tasks.az-login]
+[tasks."az:login"]
 description = "Login to Azure CLI using Proton Pass authentication"
 raw_args = true
 run = '''
 pass-cli run --env-file "$HOME/.config/mise/azure.env" -- sh -c 'exec az login --service-principal --username "$AZURE_CLIENT_ID" --password "$AZURE_CLIENT_SECRET" --tenant "$AZURE_TENANT_ID"'
 '''
+
+[tasks.az]
+description = "Run Azure az with Proton Pass authentication"
+raw_args = true
+run = 'pass-cli run --env-file "$HOME/.config/mise/azure.env" -- az'
+
+
