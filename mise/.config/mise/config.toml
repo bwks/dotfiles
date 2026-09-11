@@ -19,7 +19,7 @@ description = "Run GitHub CLI with Proton Pass authentication"
 raw_args = true
 run = 'pass-cli run --env-file "$HOME/.config/mise/github.env" -- gh'
 
-[tasks.git-push]
+[tasks."git:push"]
 description = "Push Git changes using Proton Pass authentication"
 raw_args = true
 run = 'pass-cli run --env-file "$HOME/.config/mise/github.env" -- git push'
