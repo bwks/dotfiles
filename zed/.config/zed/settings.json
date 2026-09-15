@@ -7,55 +7,62 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "cli_default_open_behavior": "existing_window",
   "ssh_connections": [
     {
       "host": "ubntv",
       "args": [],
       "projects": [
         {
-          "paths": ["/home/bradmin/code/rust/bollardex"]
+          "paths": ["/home/bradmin/code/rust/bollardex"],
         },
         {
-          "paths": ["/home/bradmin/code/rust/sherpa"]
-        }
-      ]
-    }
+          "paths": ["/home/bradmin/code/rust/sherpa"],
+        },
+      ],
+    },
   ],
-  "vim_mode": true,
+  "vim_mode": false,
   "cursor_blink": false,
   "collaboration_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   "outline_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "git_panel": {
-    "dock": "right"
-  },
-  "features": {
-    "edit_prediction_provider": "none"
+    "dock": "right",
   },
   "edit_predictions": {
-    "enabled_in_text_threads": false
+    "provider": "none",
+    "enabled_in_text_threads": false,
   },
   "agent": {
-    "always_allow_tool_actions": true,
+    "tool_permissions": {
+      "default": "allow",
+    },
     "default_profile": "ask",
     "enabled": true,
     "dock": "left",
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "claude-sonnet-4.5"
+      "effort": "medium",
+      "enable_thinking": true,
+      "provider": "openai-subscribed",
+      "model": "gpt-6-astra",
     },
-    "model_parameters": []
+    "model_parameters": [],
   },
 
   "format_on_save": "on",
   "ui_font_family": "Recursive Monospace",
   "telemetry": {
-    "metrics": false
+    "metrics": false,
   },
-  "icon_theme": "Catppuccin Mocha",
+  "icon_theme": {
+    "mode": "system",
+    "light": "Catppuccin Mocha",
+    "dark": "Catppuccin Mocha",
+  },
   "ui_font_size": 16,
   "buffer_font_size": 18,
   "buffer_font_family": "Recursive Monospace Casual",
@@ -65,33 +72,33 @@
     "liga": true, // Enables standard ligatures
     "calt": true, // Enables contextual alternates
     "ss01": true, // Enables stylistic set 1 (for Recursive alternates)
-    "ss02": true // Disables stylistic set 2 (if undesired)
+    "ss02": true, // Disables stylistic set 2 (if undesired)
   },
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Catppuccin Frappé"
+    "dark": "Catppuccin Macchiato",
   },
   "project_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   "inlay_hints": {
     "enabled": true,
     "show_type_hints": true,
     "show_parameter_hints": true,
-    "show_other_hints": true
+    "show_other_hints": true,
   },
   "languages": {
     "Rust": {
       "inlay_hints": {
-        "enabled": true
-      }
-    }
+        "enabled": true,
+      },
+    },
   },
   "terminal": {
     "default_height": 9999,
-    "font_family": "Recursive Monospace Casual"
-  }
+    "font_family": "Recursive Monospace Casual",
+  },
   // "lsp": {
   //   "rust-analyzer": {
   //     "initialization_options": {
