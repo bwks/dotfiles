@@ -36,4 +36,7 @@ description = "Run Azure az with Proton Pass authentication"
 raw_args = true
 run = 'pass-cli run --env-file "$HOME/.config/mise/azure.env" -- az'
 
+[tasks.codex]
+description = "Run codex"
+run = "codex"
 
