@@ -5,6 +5,8 @@ auto_prune = false
 codex = "latest"
 gh = "latest"
 node = "26.7.0"
+azure = "latest"
+terraform = "latest"
 
 [task_config]
 dir = "{{cwd}}"
@@ -35,6 +37,11 @@ pass-cli run --env-file "$HOME/.config/mise/azure.env" -- sh -c 'exec az login -
 description = "Run Azure az with Proton Pass authentication"
 raw_args = true
 run = 'pass-cli run --env-file "$HOME/.config/mise/azure.env" -- az'
+
+[tasks.terraform]
+description = "Run terraform with Proton Pass authentication"
+raw_args = true
+run = 'pass-cli run --env-file "$HOME/.config/mise/azure.env" -- terraform'
 
 [tasks.codex]
 description = "Run codex"
