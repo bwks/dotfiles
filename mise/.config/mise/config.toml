@@ -3,7 +3,7 @@ auto_prune = false
 
 [tools]
 gh = "latest"
-node = "26.10.0"
+node = "26.11.1"
 azure = "latest"
 terraform = "latest"
 codex = "latest"
@@ -14,7 +14,7 @@ dir = "{{cwd}}"
 [tasks.sherpa]
 description = "Run Sherpa CLI with Proton Pass env"
 raw_args = true
-run = 'pass-cli run --env-file "$HOME/.config/mise/github.env" -- sherpa'
+run = 'pass-cli run --env-file "$HOME/.config/mise/github.env" --env-file "$HOME/.config/mise/tailscale.env" -- sherpa'
 
 [tasks.gh]
 description = "Run GitHub CLI with Proton Pass authentication"
