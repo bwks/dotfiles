@@ -38,6 +38,12 @@ description = "Run Azure az with Proton Pass authentication"
 raw_args = true
 run = 'pass-cli run --env-file "$HOME/.config/mise/azure.env" -- az'
 
+[tasks.claude]
+description = "Run claude"
+raw = true
+raw_args = true
+run = '''pass-cli run --env-file "$HOME/.config/mise/github.env" -- sh -c 'exec claude "$@" </dev/tty >/dev/tty 2>&1' '''
+
 [tasks.terraform]
 description = "Run terraform with Proton Pass authentication"
 raw_args = true
