@@ -15,7 +15,7 @@ dir = "{{cwd}}"
 [tasks.sherpa]
 description = "Run Sherpa CLI with Proton Pass env"
 raw_args = true
-run = 'pass-cli run --env-file "$HOME/.config/mise/github.env" --env-file "$HOME/.config/mise/tailscale.env" -- sherpa'
+run = 'pass-cli run --env-file "$HOME/.config/mise/github.env" --env-file "$HOME/.config/mise/tailscale.env" --env-file "$HOME/.config/mise/cloudflare.env" -- sherpa'
 
 [tasks.gh]
 description = "Run GitHub CLI with Proton Pass authentication"
