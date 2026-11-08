@@ -8,6 +8,7 @@ azure = "latest"
 terraform = "latest"
 codex = "latest"
 claude = "latest"
+"github:nats-io/natscli" = "0.5.1"
 
 [task_config]
 dir = "{{cwd}}"
@@ -16,6 +17,45 @@ dir = "{{cwd}}"
 description = "Run Sherpa CLI with Proton Pass env"
 raw_args = true
 run = 'pass-cli run --env-file "$HOME/.config/mise/sherpa.env" --env-file "$HOME/.config/mise/tailscale.env" --env-file "$HOME/.config/mise/cloudflare.env" --env-file "$HOME/.config/mise/claude.env" -- sherpa'
+
+[tasks."agent-bus:bus"]
+description = "Start the agent bus with NKey auth on the dev lab's bridge, as the host"
+run = '''pass-cli run --env-file "$HOME/.config/mise/sherpa.env" -- bash -c 'AGENT_BUS_SEED="$AGENT_BUS_HOST_SEED" exec "$HOME/.local/bin/agent-bus" bus start --lab "$HOME/code/rust/sherpa/tests/environments/dev" --agents "$HOME/.config/agent-bus/agents.toml"' '''
+
+[tasks."agent-bus:send"]
+description = "Send a task or answer to a guest agent, as the host"
+raw_args = true
+run = '''pass-cli run --env-file "$HOME/.config/mise/sherpa.env" -- bash -c 'AGENT_BUS_SEED="$AGENT_BUS_HOST_SEED" exec "$HOME/.local/bin/agent-bus" send "$@"' send'''
+
+[tasks."agent-bus:cancel"]
+description = "Cancel a running or queued task on a guest agent, as the host"
+raw_args = true
+run = '''pass-cli run --env-file "$HOME/.config/mise/sherpa.env" -- bash -c 'AGENT_BUS_SEED="$AGENT_BUS_HOST_SEED" exec "$HOME/.local/bin/agent-bus" cancel "$@"' cancel'''
+
+[tasks."agent-bus:usage"]
+description = "Show cost and token usage per task from the bus, as the host"
+raw_args = true
+run = '''pass-cli run --env-file "$HOME/.config/mise/sherpa.env" -- bash -c 'AGENT_BUS_SEED="$AGENT_BUS_HOST_SEED" exec "$HOME/.local/bin/agent-bus" usage "$@"' usage'''
+
+[tasks."agent-bus:show"]
+description = "Print every stored message of one task, as the host"
+raw_args = true
+run = '''pass-cli run --env-file "$HOME/.config/mise/sherpa.env" -- bash -c 'AGENT_BUS_SEED="$AGENT_BUS_HOST_SEED" exec "$HOME/.local/bin/agent-bus" show "$@"' show'''
+
+[tasks."agent-bus:listen"]
+description = "Print messages to the host as JSON lines"
+raw_args = true
+run = '''pass-cli run --env-file "$HOME/.config/mise/sherpa.env" -- bash -c 'AGENT_BUS_SEED="$AGENT_BUS_HOST_SEED" exec "$HOME/.local/bin/agent-bus" listen host "$@"' listen'''
+
+[tasks."agent-bus:agent"]
+description = "Enroll a lab node's guest agent on the bus and start it, as the host"
+run = '''pass-cli run --env-file "$HOME/.config/mise/claude.env" --env-file "$HOME/.config/mise/sherpa.env" -- bash -c 'AGENT_BUS_SEED="$AGENT_BUS_HOST_SEED" exec "$HOME/.local/bin/agent-bus-start-agent" "$@"' start-agent'''
+raw_args = true
+
+[tasks."agent-bus:agents"]
+description = "Show each agent on the bus: online, running task, queue, last active, as the host"
+run = '''pass-cli run --env-file "$HOME/.config/mise/sherpa.env" -- bash -c 'AGENT_BUS_SEED="$AGENT_BUS_HOST_SEED" exec "$HOME/.local/bin/agent-bus" agents "$@"' agents'''
+raw_args = true
 
 [tasks.gh]
 description = "Run GitHub CLI with Proton Pass authentication"
